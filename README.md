@@ -3,14 +3,14 @@ Autor: Rebeca Sánchez
 
 Fecha entrega: 19/10/2022
 
-En esta segunda práctica --> 
+En esta segunda práctica el objetivo es crear un diagrama de clases inicial para la empresa que nos describen a lo largo del enunciado.
 
 ## 1. Introducción
 Este problema se irá resolviendo poco a poco a lo largo del curso. 
 El problema es el sigueinte: una empresa solicita desarrollar un sistema software para dar soporte a una completa infraestrucctura de sensores. Tendremos que diseñar el sistema que da solución al problema e implementarlo empleando programación orientada a objetos (POO).
 
 ## 2. Especificaciones de requerimiento
-Una empresa dedicada al desarrollo autosostenible pretende implementar un sistema multisensorial en un invernadero, de forma que pueda tener controladas todas las variables climatológicas tanto de forma presencial como remota. Debe incorporar los mecanismos necesarios para **controlar la seguridad de la empresa**: alarma, detención de puertas/ventanas abiertas, etc.
+Una empresa dedicada al desarrollo autosostenible pretende implementar un sistema multisensorial en un invernadero, de forma que pueda tener controladas todas las variables climatológicas tanto de forma **presencial como remota**. Debe incorporar los mecanismos necesarios para **controlar la seguridad de la empresa**: alarma, detención de puertas/ventanas abiertas, etc.
 
 Cualquier empleado podrá acceder al sistema para acceder a todos los datos. Cada **empleado solo puede tener una cuanta** en el sistema.
 
@@ -20,10 +20,10 @@ Cualquier empleado podrá acceder al sistema para acceder a todos los datos. Cad
 - **Micrófoco** para dar instrucciones y que sean escuchadas desde las distintas estaciones
 - **Interruptor** o similar para activar/desactivar la alarma
 
-**Software** --> leer datos de los sensores y cámaras de las distintas ubicaciones y que los vierta de forma más sencilla mediante un **interfaz gráfico**.
+**Software** --> leer datos de los sensores y cámaras de las **distintas ubicaciones** y que los vierta de forma más sencilla mediante un **interfaz gráfico**.
 Se utilizará el monitor para simular la interfaz, el teclado como entrada de datos y los dispositivos sensoriales verterán los datos mediante distintos algoritmos.
 
-Una sesión con el interfaz del sistema consiste en la autentificación de un usuario (**empleado**) mediante la autentificación de un número de identificacción (**dashboard**). Para autenticar al usuario y que pueda acceder, el programa debe interactuar con la base de datos de información sobre los empleados registrados en la empresa. Para cada uno, la base almacena un número de usuario, un  NIF y un timestamp que indica la fecha del último acceso al sistema. Para simplificar el ejemplo se va a suponer qie la empresa confía en este sistema para que acceda a la información d la base de datos y la manipule sin necesidad demedidas de seguridad considerables.
+Una sesión con el interfaz del sistema consiste en la autentificación de un usuario (**empleado**) mediante la autentificación de un número de identificacción (**dashboard**). Para autenticar al usuario y que pueda acceder, el programa debe **interactuar con la base de datos** de información sobre los empleados registrados en la empresa. Para cada uno, la base almacena un **número de usuario, un  NIF y un timestamp** que indica la fecha del último acceso al sistema. Para simplificar el ejemplo se va a suponer que la empresa confía en este sistema para que acceda a la información de la base de datos y la manipule sin necesidad demedidas de seguridad considerables.
 
 El usuario deberá experimentar la siguiente secuencia de eventos:
 1. La pantalla muestra un mensaje de bienvenida y pide al usuario que introduzca un número de empleado.
