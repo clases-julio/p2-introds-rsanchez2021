@@ -71,9 +71,11 @@ En la segunda opción son admin y empleado son diferentes clases que heredan de 
 
 Al final la solución fue unificar administrador y empleado en una clase *User* e introducir una variable booleana de si es administrador y que el server lo chequee en un método para que pueda acceder a la base de datos o no. 
 
-Finalmente, el diagrama de clases con atributos y métodos pero sin las uniones entre clases correspondientes se queda de la siguiente maner: 
+Finalmente, el diagrama de clases con atributos y métodos pero sin las uniones entre clases correspondientes se queda de la siguiente manera: 
 
 ![Diagrama de clases sin uniones](https://github.com/rsanchez2021/Image/blob/main/diagrama_clase.PNG "Diagrama sin uniones finales")
+
+En la práctica dos ya se pondrán las relaciones correspondientes y se mejorará 
 
 ## Explicación diagrama
 
