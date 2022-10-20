@@ -86,6 +86,3 @@ La parte de sensores abarca las siete clases de los sensores y una clase *Sensor
 Para User, ya se ha explicado antes las diferentes opciones y la opción final, introducir un booleano para comprobar si lo es y así poder acceder a la base de datos. Para poder saber qué empleado es se ha creado la clase *Login* donde se comprueba el número de empleado y nif, y luego en la clase "User" se obtienen de la base de datos. 
 
 El dashboard se fundamenta en mostrar los datos, utilizar los componentes hardware (de entrada y salida) y algún método concreto de las especificaciones como exit() o return().
-
-Finalmente, el diagrama queda así:
-![Diagrama final](
